@@ -1,4 +1,5 @@
-prokka:
+prokka: anno.t_rebecca anno.t_lynn anno.t_centrarchi anno.t_maritimum \
+	anno.t_mesophilum anno.t_ovolyticum anno.t_soleae anno.t_sp47
 
 t_rebecca_wt.fa:
 	curl -L -o $@ 'https://osf.io/27cvw/?action=download'
