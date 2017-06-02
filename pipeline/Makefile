@@ -5,7 +5,7 @@ prokka: anno.t_rebecca/t_rebecca.txt anno.t_lynn/t_lynn.txt \
 	anno.t_mesophilum/t_mesophilum.txt anno.t_ovolyticum/t_ovolyticum.txt \
 	anno.t_soleae/t_soleae.txt anno.t_sp47/t_sp47.txt
 
-t_rebecca_wt.fa/t_rebecca.txt:
+t_rebecca_wt.fa:
 	curl -L -o $@ 'https://osf.io/27cvw/?action=download'
 
 anno.t_rebecca/t_rebecca.txt: t_rebecca_wt.fa
