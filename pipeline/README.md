@@ -32,6 +32,21 @@ prokka --setupdb
 prokka --version
 ```
 
+## Install quast
+
+```
+cd ~/
+# download quast
+wget https://github.com/ablab/quast/archive/quast_4.5.tar.gz
+
+# unpack quast
+tar xzf quast_4.5.tar.gz
+
+# add to path
+echo 'export PATH=$PATH:$(pwd)/quast-quast_4.5' >> ~/.bashrc
+source ~/.bashrc
+```
+
 ## Run the pipeline
 
 ```
