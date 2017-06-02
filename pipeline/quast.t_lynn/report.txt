@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    t_lynn_wt
+# contigs (>= 0 bp)         1999     
+# contigs (>= 1000 bp)      282      
+# contigs (>= 5000 bp)      191      
+# contigs (>= 10000 bp)     117      
+# contigs (>= 25000 bp)     30       
+# contigs (>= 50000 bp)     5        
+Total length (>= 0 bp)      4075009  
+Total length (>= 1000 bp)   3304088  
+Total length (>= 5000 bp)   3032136  
+Total length (>= 10000 bp)  2495025  
+Total length (>= 25000 bp)  1162440  
+Total length (>= 50000 bp)  301015   
+# contigs                   382      
+Largest contig              70733    
+Total length                3359375  
+GC (%)                      31.85    
+N50                         16888    
+N75                         9604     
+L50                         57       
+L75                         120      
+# N's per 100 kbp           0.00     

@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    t_rebecca_wt
+# contigs (>= 0 bp)         388         
+# contigs (>= 1000 bp)      144         
+# contigs (>= 5000 bp)      119         
+# contigs (>= 10000 bp)     93          
+# contigs (>= 25000 bp)     50          
+# contigs (>= 50000 bp)     15          
+Total length (>= 0 bp)      3456370     
+Total length (>= 1000 bp)   3357573     
+Total length (>= 5000 bp)   3291186     
+Total length (>= 10000 bp)  3087365     
+Total length (>= 25000 bp)  2391261     
+Total length (>= 50000 bp)  1104800     
+# contigs                   163         
+Largest contig              115824      
+Total length                3369010     
+GC (%)                      31.66       
+N50                         39784       
+N75                         22688       
+L50                         29          
+L75                         56          
+# N's per 100 kbp           0.00        

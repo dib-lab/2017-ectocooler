@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+Suggestion: assembly t_ovolyticum contains continuous fragments of N's of length >= 10 bp. You may consider rerunning QUAST using --scaffolds (-s) option!
+
+Assembly                    t_ovolyticum
+# contigs (>= 0 bp)         1           
+# contigs (>= 1000 bp)      1           
+# contigs (>= 5000 bp)      1           
+# contigs (>= 10000 bp)     1           
+# contigs (>= 25000 bp)     1           
+# contigs (>= 50000 bp)     1           
+Total length (>= 0 bp)      1036098     
+Total length (>= 1000 bp)   1036098     
+Total length (>= 5000 bp)   1036098     
+Total length (>= 10000 bp)  1036098     
+Total length (>= 25000 bp)  1036098     
+Total length (>= 50000 bp)  1036098     
+# contigs                   1           
+Largest contig              1036098     
+Total length                1036098     
+GC (%)                      28.97       
+N50                         1036098     
+N75                         1036098     
+L50                         1           
+L75                         1           
+# N's per 100 kbp           140.04      
