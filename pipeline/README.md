@@ -14,7 +14,8 @@ Install the prerequisites:
 
 ```
 sudo apt-get -y update && \
-    sudo apt-get -y install bioperl libxml-simple-perl default-jre git curl
+    sudo apt-get -y install bioperl libxml-simple-perl default-jre git curl \
+       roary
 ```
 
 ## Install Prokka
