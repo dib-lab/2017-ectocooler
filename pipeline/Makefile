@@ -7,6 +7,11 @@ prokka: anno.t_rebecca/t_rebecca.txt anno.t_lynn/t_lynn.txt \
 
 quast: quast.t_rebecca/report.txt quast.t_lynn/report.txt quast.t_centrarchi/report.txt quast.t_maritimum/report.txt quast.t_mesophilum/report.txt quast.t_ovolyticum/report.txt quast.t_soleae/report.txt
 
+roary: roary_out/gene_presence_absence.csv
+
+roary_out/gene_presence_absence.csv: prokka
+	roary -p 8 -f roary_out -i 90 -v -y anno.t_*/*.gff
+
 t_rebecca_wt.fa:
 	curl -L -o $@ 'https://osf.io/27cvw/?action=download'
 
