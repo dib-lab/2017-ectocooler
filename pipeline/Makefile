@@ -11,7 +11,7 @@ t_rebecca_wt.fa:
 	curl -L -o $@ 'https://osf.io/27cvw/?action=download'
 
 anno.t_rebecca/t_rebecca.txt: t_rebecca_wt.fa
-	prokka --outdir $(dirname $@) --prefix t_rebecca $<
+	prokka --outdir $$(dirname $@) --prefix t_rebecca $<
 
 quast.t_rebecca/report.txt: t_rebecca_wt.fa
 	quast.py -o quast.t_rebecca $<
@@ -20,7 +20,7 @@ t_lynn_wt.fa:
 	curl -L -o $@ 'https://osf.io/8c9zs/?action=download'
 
 anno.t_lynn/t_lynn.txt: t_lynn_wt.fa
-	prokka --outdir $(dirname $@) --prefix t_lynn $<
+	prokka --outdir $$(dirname $@) --prefix t_lynn $<
 
 quast.t_lynn/report.txt: t_lynn_wt.fa
 	quast.py -o quast.t_lynn $<
@@ -29,7 +29,7 @@ t_centrarchi.fa:
 	curl -L -o $@ 'https://osf.io/tney3/?action=download'
 
 anno.t_centrarchi/t_centrarchi.txt: t_centrarchi.fa
-	prokka --outdir $(dirname $@) --prefix t_centrarchi $<
+	prokka --outdir $$(dirname $@) --prefix t_centrarchi $<
 
 quast.t_centrarchi/report.txt: t_centrarchi.fa
 	quast.py -o quast.t_centrarchi $<
