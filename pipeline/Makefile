@@ -9,7 +9,7 @@ quast: quast.t_rebecca/report.txt quast.t_lynn/report.txt quast.t_centrarchi/rep
 
 roary: roary_out/gene_presence_absence.csv
 
-roary_out/gene_presence_absence.csv: prokka
+roary_out/gene_presence_absence.csv: anno.t_*/*.gff
 	roary -p 8 -f roary_out -i 90 -v -y anno.t_*/*.gff
 
 t_rebecca_wt.fa:
